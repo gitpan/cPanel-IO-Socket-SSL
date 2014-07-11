@@ -14,7 +14,7 @@
 
 package cPanel::IO::Socket::SSL;
 
-our $VERSION = '1.994c';
+our $VERSION = '1.994_01';
 
 use IO::Socket;
 use Net::SSLeay 1.46;

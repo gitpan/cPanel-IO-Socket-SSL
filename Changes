@@ -1,3 +1,7 @@
+1.994_01 2014/07/11
+- use a version number which allows to `use cPanel::IO::Socket::SSL 1.994;`
+  because core creates version objects of these.
+  http://www.dagolden.com/index.php/369/version-numbers-should-be-boring/
 1.994c 2014/07/11
 - Forked off IO::Socket::SSL to be able to compile servers.
   Compilation broke with 1.956. See https://rt.cpan.org/Ticket/Display.html?id=95452

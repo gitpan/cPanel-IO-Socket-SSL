@@ -25,4 +25,4 @@ resources:
   homepage: https://github.com/rurban/cPanel-IO-Socket-SSL
   license: http://dev.perl.org/licenses/
   repository: https://github.com/rurban/cPanel-IO-Socket-SSL
-version: 1.994c
+version: 1.994_01

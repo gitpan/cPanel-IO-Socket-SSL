@@ -37,7 +37,7 @@
          }
       }
    },
-   "release_status" : "stable",
+   "release_status" : "testing",
    "resources" : {
       "bugtracker" : {
          "web" : "https://rt.cpan.org/Dist/Display.html?Queue=cPanel-IO-Socket-SSL"
@@ -50,5 +50,5 @@
          "url" : "https://github.com/rurban/cPanel-IO-Socket-SSL"
       }
    },
-   "version" : "1.994c"
+   "version" : "1.994_01"
 }
