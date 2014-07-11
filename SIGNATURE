@@ -1,0 +1,96 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 b975b89eeb12f4e913abb699a49c9f43c8f7e440 BUGS
+SHA1 8b36596163947a922100d34044e5929da91413c1 Changes
+SHA1 89a5c9d95dade9a272d25b4f95f385740fa82d59 MANIFEST
+SHA1 7c03c4e26aeb80a646a7ff63b714edfcdae1c14d META.json
+SHA1 a789dcd609aec82adc5aa1bbb3b2416a2a2f3171 META.yml
+SHA1 e36200ef89515985332ad5654eb4f5fdecf0133e Makefile.PL
+SHA1 d2f0648b3460c758a91004a3c895b8df5d620588 README
+SHA1 14d9f58905834bdb5ac5b16f7002b4ac133dd90e README.Win32
+SHA1 954cc3e1d873e226053938475341d586221eb5a6 certs/client-cert.pem
+SHA1 8d55bc39aa2c544e92cf57729d3ddc0bfa1ea426 certs/client-key.enc
+SHA1 390bad6365de4824d254e310eb4fd1beb243d89f certs/client-key.pem
+SHA1 05f53718876ccafacb7907c97d52a3e62ea09f31 certs/my-ca.pem
+SHA1 8c9b890bc04498d7fb04af8743ea909d5303ffc7 certs/proxyca.pem
+SHA1 ed300a3a30e2fa26ba987ac1df887d588feb8cdf certs/server-cert.der
+SHA1 63e4d81753c349ecc4f9a376c4b0ab22d4ffa4ba certs/server-cert.pem
+SHA1 a26cac92fd810e49fde7371649de8eed84f9b5a0 certs/server-key.der
+SHA1 22e5e1bc3e5d4482c80b98b70cc2da0d36707c4e certs/server-key.enc
+SHA1 0cf9979e8910ee91dba916901f5cb8fc9e97241a certs/server-key.pem
+SHA1 348c9a40a93f94ceaab6790c22a41c0e9812696a certs/server-rsa384-dh.pem
+SHA1 c9d6354222488114c9e491c92b880e35d44247cb certs/server-wildcard.pem
+SHA1 34f9115d898c23a2a3ccaaf838c8de878fa283bf certs/server.p12
+SHA1 3c5356a2e346d579198acf488fefb48b99ac9325 certs/server_enc.p12
+SHA1 05f53718876ccafacb7907c97d52a3e62ea09f31 certs/test-ca.pem
+SHA1 4151fd072039c00ad1f7072b96f20e1a48b0c2c3 docs/debugging.txt
+SHA1 ddb9b5d32e33cd508d49b28fd4951cdea890ccaa example/async_https_server.pl
+SHA1 64f1f1cafa43253924e7f1193315c57fbde2fae0 example/lwp-with-verifycn.pl
+SHA1 536527a37a3d159be43e38ec859af06d0e7a2e92 example/simulate_proxy.pl
+SHA1 938f66dbf1935596bd710047643c9f221bb64b81 example/ssl_client.pl
+SHA1 3fe707916e5fb03b5ced79ca67b204d23cd35414 example/ssl_mitm.pl
+SHA1 66f0018a7b8deea68aefbb3ac48a2364527aa46c example/ssl_server.pl
+SHA1 856c0079b21f76b7b79cf80e05b2df6a256ace74 lib/cPanel/IO/Socket/SSL.pm
+SHA1 eb1ca84cf3e42deb6491204e3815f8342f4b588b lib/cPanel/IO/Socket/SSL.pod
+SHA1 aeb0a4c4d2f6ae46d2b05826df667650942d195b lib/cPanel/IO/Socket/SSL/Intercept.pm
+SHA1 35762da471978fdf8efccc737ecbe4365ed474b9 lib/cPanel/IO/Socket/SSL/PublicSuffix.pm
+SHA1 c3d221a7bbb238e576d73297764a77890de4f2b4 lib/cPanel/IO/Socket/SSL/Utils.pm
+SHA1 4653f8ac494fdc1a2b5a03a30fa592f05fbabfe7 t/01loadmodule.t
+SHA1 2a7b97a6bd50cccd95a402875e12e245e9c9f5e4 t/acceptSSL-timeout.t
+SHA1 9c3702cdee6ffe7760a23af5a9b6df76a9d5908d t/auto_verify_hostname.t
+SHA1 da4f5654f7c6b30d26e36e5e5e9dc9e3a17adf87 t/cert_formats.t
+SHA1 63569f650e2fc51b2f524f66faffb562d0b512e5 t/cert_no_file.t
+SHA1 4ac47488bef637e363baebddf79b031c67cb8fd5 t/compatibility.t
+SHA1 7e9d80adb988b18013fb2be578d316f251009d29 t/connectSSL-timeout.t
+SHA1 93c95cad5d986306cd656e4a64859d2ed56fb662 t/core.t
+SHA1 406864d8248deecc7522409e9fa3ed3cc8f8348b t/dhe.t
+SHA1 22f6c24046ba104b83bcf7a3b0e66b16146d14e0 t/ecdhe.t
+SHA1 6b71f5c6478adea1f274e0addfeb289dd4c630d2 t/external/ocsp.t
+SHA1 0fe8dbce2903b6de87ec97ff8035cc07baf48c52 t/external/usable_ca.t
+SHA1 05503627297015e83dc4238d59285c61f079d5db t/io-socket-inet6.t
+SHA1 5b0edea68c186595d76d744cb7ac303eac524c89 t/io-socket-ip.t
+SHA1 dca9ac03a01b4b681f804b209569463d83db48c5 t/memleak_bad_handshake.t
+SHA1 47dd30b8f02ba495aafcf700e6521ec5ba980db0 t/mitm.t
+SHA1 35eafaab5f034fec36a75af5f795ac3a7d0490e0 t/nonblock.t
+SHA1 21aa6d8c8ee6ffacb11e7afb15fdf63ee085be44 t/npn.t
+SHA1 dcbe74cb57f77fe4fae5036c78eb7d1202d1238c t/plain_upgrade_downgrade.t
+SHA1 7b61f50431a6f74548a9b9141365c18ea62040f7 t/public_suffix_lib.pl
+SHA1 1b07720be555bcb0d60c26db79915bc7c5069cce t/public_suffix_lib_encode_idn.t
+SHA1 805f7864f4a2bc32494f100a1ec599c9b631b332 t/public_suffix_lib_libidn.t
+SHA1 55023928a76f4320206514f27859e5bae9ab8c2b t/public_suffix_lib_uri.t
+SHA1 680499f0c27be053654342459f4c7e594231b307 t/public_suffix_ssl.t
+SHA1 79ebf8bb4479430f4b2074491604ba4eba4f82be t/readline.t
+SHA1 fb964b073b653eb7e76d3826771500ed7ab73a80 t/rt95452_perlcc.t
+SHA1 87a34dc5104a4a55910138747794b63b3c58f67b t/sessions.t
+SHA1 b197ed2eaae7e512cf01afb40beeaeaa1244ecf2 t/signal-readline.t
+SHA1 daee6b44e4a2e0eee23dcda0a816d0f19cb90930 t/sni.t
+SHA1 3d683b87161bcd0315c0decfc7c1c3569266b273 t/start-stopssl.t
+SHA1 2925814db9bca914dea10edccab278abe6f5a10a t/startssl-failed.t
+SHA1 91f978b690741cd27b2cea2202938f2623caf979 t/startssl.t
+SHA1 1c841de8aa40f5b3e0a897821f3399fadaf59f7b t/sysread_write.t
+SHA1 47adf6d2e23d85712f2cd4973085df2b0dc013ae t/testlib.pl
+SHA1 8d625e68a1ec0bd1c8756df752c3a2f71b6fb36b t/verify_fingerprint.t
+SHA1 19023cf8f40ccdd367f3cba6d4d3156af384f710 t/verify_hostname.t
+SHA1 cefd7312d6bc87d7b475f680411382cf192923f1 t/verify_hostname_standalone.t
+SHA1 48d6cd321d129f5b06e366861166873a5caf1344 util/analyze-ssl.pl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iEYEARECAAYFAlPAC2AACgkQmm2SYo/9yUJ/jwCdHPbk+zYLim7cExqAxDIm7Yaa
+bPIAnAq2YVgSK8oDJUPZK9wKRaxfKJch
+=TY1m
+-----END PGP SIGNATURE-----
